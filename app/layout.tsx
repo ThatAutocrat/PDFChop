@@ -4,6 +4,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "PDFChop — Free PDF Editor",
   description: "Merge, split, compress, convert — everything you need, nothing you don't. No paywalls, no watermarks, no nonsense.",
+  icons: {
+    icon: "/favicon(1).ico",
+    apple: "/favicon-192.png",
+  },
 };
 
 export default function RootLayout({
